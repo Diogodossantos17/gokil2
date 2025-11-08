@@ -1,0 +1,73 @@
+@charset "UFT-8";
+
+
+body{
+    background-color: rgba(50, 183, 183, 0.476);
+    font-size: 12pt;
+    font-family:('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+}
+
+:root{
+    --font-titulo: 'Merriweather' sans-serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: sticky;
+    background-color: rgb(62, 20, 166);
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    top: -1px;
+
+}
+
+menu li, a{
+    margin: 5px;
+    display: inline;
+}
+
+
+
+main{
+    background-color: white;
+    padding: 40px;
+    height: 100vh;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.26);
+    background-image: url('imagens/architecture-nature-merge-modern-design-generative-ai.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main> section{
+    background-color: white;
+    padding: 100px;
+    
+}
+
+
+footer{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(11, 205, 140);
+}
+
+a{
+text-decoration: none;
+color: rgb(11, 205, 140)
+}
+
+a:hover{
+color: red;
+}
