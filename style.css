@@ -9,7 +9,11 @@ body{
 }
 
 :root{
-    --font-titulo: 'Merriweather' sans-serif;
+    /*Variáveis de Cores: */
+
+    --cor-principal:  rgba(50, 183, 183, 0.476)
+    --cor-secundário: gray 
+    
 }
 
 
@@ -105,6 +109,18 @@ footer{
     color: rgb(11, 205, 140);
 
     top: 20px;
+}
+
+li#WhatssApp{
+    text-align: left;
+}
+
+li#Instagram{
+    text-align: left;
+}
+
+li#E-mail{
+    text-align: left;
 }
 
 a{
