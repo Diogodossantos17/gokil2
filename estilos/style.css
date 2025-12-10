@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*Configurações globais dos site...*/
+
+:root{
+    --cor-principal:#0B47D3;
+    --cor-secundária:#10CEDB;
+    --cor-terceira:#08666D;
+    --cor-section:white;
+
+    --fonte-título: 'Science Gothic' sans-serif;
+    --fonte-subtítulo: 'Raleway' sans-serif;
+    --terceira-parágrafo:
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-image: url(../imagens/Edifício\ Futurista.jpg);
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    background-color: var(--cor-terceira);
+    border-radius: 1px;
+}
+
+menu >ul >li{
+    padding: 0px;
+    margin: 1px;
+    background-color: rgb(9, 44, 44);
+    border-radius: 10px;
+    text-align: center;
+}
+
+menu>ul> li{
+    list-style-type: none;
+}
+
+
+header>h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+menu>ul>li>a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    
+}
+
+li>a:hover{
+    color:aqua;
+}
+
+menu{
+    display: none;
+}
+
+span#burguer{
+    background-color: rgb(9, 44, 44);
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}

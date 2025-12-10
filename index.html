@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt_PT">
 <head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+<style>
+    body{
+        background-image: url(../gokil2/imagens/Edifício\ Futurista.jpg);
+    }
+</style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gokil</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/tela.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css"  media="screen and (orientation: landscape)">
 
-    <script src="../gokil2/scriptgokil/gokil.js"></script>
+
 </head>
 
 
-    <header id="principal"> <h1>GOKIL ARQUITECURA</h1>
-        <menu>
+<header id="principal"> <h1>GOKIL ARQUITECURA</h1>
+<span id="burguer" class="material-symbols-outlined" onclick="clickme()">
+menu
+</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Arquitecura</a></li>
                 <li><a href="#">Projectos</a></li>
                 <li><a href="#">Consultoria</a></li>
                 <li><a href="#">Orçamentos</a></li>
-                <li>
-                    <a href="#">Contactos</a>
-                </li>
+                <li><a href="#">Contactos</a></li>
 
             </ul>
         </menu>
@@ -71,16 +88,9 @@
 
     
 
- <footer>&copy; Gokil 2025
+ <footer>&copy; Gokil 2025</footer>
 
-    <p>Contactos:
-        <ul>
-            <li id="WhatssApp">WhattsApp: <a href="945 811 796">945 811 796</a></li>
-            <li id="Instagram">Instagram: <a href="diogodossantos154">diogodossantos154</a></li>
-            <li id="E-mail">E-mail: <a href="dslourenco99@gmail.com">dslourenco99@gmail.com</a></li>
-        </ul>
-    </p>
- </footer>
+ <script src="scriptgokil/gokil.js"></script>
      
 </body>
 </html>

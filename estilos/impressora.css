@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 100%;
+}
+
+article::after{
+    content: 'Por: Diogo dos Santos Lourenço.';
+}
+
+li{
+    list-style-type: none;
+}
+
+li, a{
+    text-decoration: none;
+}
