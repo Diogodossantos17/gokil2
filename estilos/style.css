@@ -20,13 +20,14 @@
     padding: 0px;
 }
 
-html, body{
+
+
+body{
     background-image: url(../imagens/Edifício\ Futurista.jpg);
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
 }
 
 header{
@@ -80,3 +81,66 @@ span#burguer{
     padding: 5px;
     cursor: pointer;
 }
+
+section#first{
+    background-image: url(../imagens/Engenheira\ Civil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    color: rgb(93, 207, 201);
+    height: 25vh;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+section#first>article>p{
+    text-align: justify;
+    text-indent: 2.5em;
+}
+
+h2{
+    padding:5px ;
+    text-align:justify;
+    margin: 5px;
+}
+
+section#second{
+    height: 25vh;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section#third{
+    background-image: url(../imagens/Assistente\ Call\ Center.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10px;
+    height: 25vh;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+section#fourth{
+    background-color: white;
+    height: 25vh;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+
+footer{
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: var(--cor-terceira);
+    margin: 0px;
+}
+
