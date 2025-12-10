@@ -88,7 +88,7 @@ section#first{
     background-repeat: no-repeat;
     background-position: center center; 
     color: rgb(93, 207, 201);
-    height: 25vh;
+    height: 50vh;
     padding: 10px;
     margin: 20px;
     border-radius: 10px;
@@ -97,7 +97,7 @@ section#first{
 
 section#first>article>p{
     text-align: justify;
-    text-indent: 2.5em;
+    text-indent: 1px
 }
 
 h2{
@@ -121,14 +121,14 @@ section#third{
     background-position: center;
     background-attachment: fixed;
     padding: 10px;
-    height: 25vh;
+    height: 50vh;
     margin: 20px;
     border-radius: 10px;
     background-color: white;
 }
 section#fourth{
     background-color: white;
-    height: 25vh;
+    height: vh;
     padding: 10px;
     margin: 20px;
     border-radius: 10px;
@@ -138,9 +138,19 @@ section#fourth{
 
 footer{
     text-align: center;
-    border-radius: 10px;
+    border-radius: 1px;
     padding: 40px;
     background-color: var(--cor-terceira);
     margin: 0px;
 }
 
+
+footer>a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer>a:hover{
+    color: aqua;
+}
